@@ -1,0 +1,29 @@
+{
+  "name": "librbd",
+  "version": "1.0.0",
+  "description": "RBD API wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ejobs/librbd.git"
+  },
+  "keywords": [
+    "rbd",
+    "librbd",
+    "rados",
+    "rgw"
+  ],
+  "author": "Adrian Punga <adrian.punga@ejobsgroup.ro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ejobs/librbd/issues"
+  },
+  "homepage": "https://github.com/Ejobs/librbd#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.6.3"
+  }
+}
